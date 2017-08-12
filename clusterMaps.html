@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Marker Clustering</title>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+
+    function initMap() {
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 7,
+            center: {lat: 30.3947961,lng: -97.7490322}
+        });
+
+        // Create an array of alphabetical characters used to label the markers.
+        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+        // Add some markers to the map.
+        // Note: The code uses the JavaScript Array.prototype.map() method to
+        // create an array of markers based on a given "locations" array.
+        // The map() method here has nothing to do with the Google Maps API.
+        var markers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+
+        // Add a marker clusterer to manage the markers.
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+        // Add links to markers to open in google maps
+        var gMapsClick = locations.map(function (location, i) {
+            return markers[i].addListener('click', function () {
+                window.location.href = 'https://www.google.com/maps/search/?api=1&place=Texadelphia&query=' + location.lat + ',' + location.lng ;
+                //window.location.href = 'https://www.google.com/maps/search/?api=1&query_place_id=ChIJOyLf3YPMRIYRPnExMnxcU04'
+            })
+        });
+
+        //markers[0].addListener('click', function() {
+//            map.setZoom(8);
+//            map.setCenter(marker.getPosition());
+        //window.location.href = 'https://google.com';
+        //});
+    }
+    var locations = [
+
+        {lat: 30.3947961,lng: -97.7490322}, // great hills
+        {lat: 30.4736815,lng: -97.8029599}, // lake line
+        {lat: 30.2277558,lng: -97.8927018}, // sunset valley
+        {lat: 33.1061924,lng: -96.8271829}, // frisco
+        {lat: 32.9098750,lng: -97.0295463}, // las colinas
+        {lat: 32.8535692,lng: -96.7706605}, // old town
+        {lat: 33.0538895,lng: -96.797294}, // plano
+        {lat: 32.9492778,lng: -96.7389665}, // richardson
+        {lat: 32.7323304,lng: -97.1107575}, // uta
+        {lat: 35.4635687,lng: -97.5121787}, // bricktown
+        {lat: 27.5752662,lng: -99.471408},// laredo
+        {lat: 26.1943132,lng: -98.2051036}, // mcallen
+        {lat: 29.7368233,lng: -95.5153865}, // westheimer
+
+    ];
+
+
+</script>},
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap">
+</script>
+</body>
+</html>
+
+

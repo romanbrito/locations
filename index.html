@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #3e8e41;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown a:hover {background-color: #f1f1f1}
+
+        .show {display:block;}
+    </style>
+    <body>
+    <h2>Clickable Dropdown</h2>
+    <p>Click on the button to open the dropdown menu.</p>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div id="primary-menu" class="menu"><ul aria-expanded="false" class=" nav-menu">
+        <li class="page_item page-item-703"><a href="http://humescores.dev/blog/">Blog</a></li>
+        <li class="page_item page-item-701"><a href="http://humescores.dev/front-page/">Front Page</a></li>
+        <li class="page_item page-item-173 page_item_has_children"><a href="http://humescores.dev/level-2/">Level 2</a>
+            <ul class="children">
+                <li class="page_item page-item-746"><a href="http://humescores.dev/level-2/level-3a/">Level 3a</a></li>
+                <li class="page_item page-item-748"><a href="http://humescores.dev/level-2/level-3b/">Level 3b</a></li>
+            </ul>
+        </li>
+        <li class="page_item page-item-172"><a href="http://humescores.dev/level-3/">Level 3</a></li>
+        <li class="page_item page-item-2"><a href="http://humescores.dev/sample-page/">Sample Page</a></li>
+        <li class="page_item page-item-6 page_item_has_children"><a href="http://humescores.dev/about/">About The Tests</a>
+            <ul class="children">
+                <li class="page_item page-item-1133"><a href="http://humescores.dev/about/page-image-alignment/">Page Image Alignment</a></li>
+                <li class="page_item page-item-1134"><a href="http://humescores.dev/about/page-markup-and-formatting/">Page Markup And Formatting</a></li>
+                <li class="page_item page-item-501"><a href="http://humescores.dev/about/clearing-floats/">Clearing Floats</a></li>
+                <li class="page_item page-item-155"><a href="http://humescores.dev/about/page-with-comments/">Page with comments</a></li>
+                <li class="page_item page-item-156"><a href="http://humescores.dev/about/page-with-comments-disabled/">Page with comments disabled</a></li>
+            </ul>
+        </li>
+        <li class="page_item page-item-174 page_item_has_children"><a href="http://humescores.dev/level-1/">Level 1</a>
+            <ul class="children">
+                <li class="page_item page-item-742"><a href="http://humescores.dev/level-1/level-2a/">Level 2a</a></li>
+                <li class="page_item page-item-744"><a href="http://humescores.dev/level-1/level-2b/">Level 2b</a></li>
+            </ul>
+        </li>
+        <li class="page_item page-item-146"><a href="http://humescores.dev/lorem-ipsum/">Lorem Ipsum</a></li>
+        <li class="page_item page-item-733"><a href="http://humescores.dev/page-a/">Page A</a></li>
+        <li class="page_item page-item-735"><a href="http://humescores.dev/page-b/">Page B</a></li>
+    </ul>
+    </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            /* When the user clicks on the button,
+             toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            var hasChild = document.getElementsByClassName("page_item_has_children");
+            console.log(hasChild);
+            var insideText = hasChild[0].innerHTML;
+            hasChild[0].innerHTML = "<button>" + insideText + "</button>";
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
