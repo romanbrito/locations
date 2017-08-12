@@ -28,8 +28,8 @@ $('#search').keyup(function () {
                 output += '<p>' + val.hours2 + '</p>';
                 output += '<p>' + val.hours3 + '</p>';
                 output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
-                output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button" data-toggle="modal" data-target="#myModal"> Menu</a>';
-                output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button" data-toggle="modal" data-target="#myModal"> Catering Menu</a>';
+                output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                 output += '</li>';
             }
         });
@@ -52,8 +52,8 @@ function get_the_data() {
             output += '<p>' + val.hours2 + '</p>';
             output += '<p>' + val.hours3 + '</p>';
             output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
-            output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button" data-toggle="modal" data-target="#myModal"> Menu</a>';
-            output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button" data-toggle="modal" data-target="#myModal"> Catering Menu</a>';
+            output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+            output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
             output += '</li>';
         });
         output += '</ul>';
