@@ -69,74 +69,129 @@ var destinationB = {lat: 50.087, lng: 14.421};
 <script>
 
     //    https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
-
-    function initMap() {
-        var bounds = new google.maps.LatLngBounds;
-        var markersArray = [];
-
-        var origin1 = {lat: 55.93, lng: -3.118};
-        var origin2 = 'Greenwich, England';
-        var destinationA = 'Stockholm, Sweden';
-        var destinationB = {lat: 50.087, lng: 14.421};
-
-        var destinationIcon = 'https://chart.googleapis.com/chart?' +
-            'chst=d_map_pin_letter&chld=D|FF0000|000000';
-        var originIcon = 'https://chart.googleapis.com/chart?' +
-            'chst=d_map_pin_letter&chld=O|FFFF00|000000';
-        var map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 55.53, lng: 9.4},
-            zoom: 10
-        });
-        var geocoder = new google.maps.Geocoder;
-
-        var service = new google.maps.DistanceMatrixService;
-        service.getDistanceMatrix({
-            origins: [origin1, origin2],
-            destinations: [destinationA, destinationB],
-            travelMode: 'DRIVING',
-            unitSystem: google.maps.UnitSystem.METRIC,
-            avoidHighways: false,
-            avoidTolls: false
-        }, function (response, status) {
-            if (status !== 'OK') {
-                alert('Error was: ' + status);
-            } else {
-                var originList = response.originAddresses;
-                var destinationList = response.destinationAddresses;
-                var outputDiv = document.getElementById('output');
-                outputDiv.innerHTML = '';
-                deleteMarkers(markersArray);
-
-                var showGeocodedAddressOnMap = function (asDestination) {
-                    var icon = asDestination ? destinationIcon : originIcon;
-                    return function (results, status) {
-                        if (status === 'OK') {
-                            map.fitBounds(bounds.extend(results[0].geometry.location));
-                            markersArray.push(new google.maps.Marker({
-                                map: map,
-                                position: results[0].geometry.location,
-                                icon: icon
-                            }));
-                        } else {
-                            alert('Geocode was not successful due to: ' + status);
-                        }
-                    };
+    function getPosition() {
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
                 };
 
-                for (var i = 0; i < originList.length; i++) {
-                    var results = response.rows[i].elements;
-                    geocoder.geocode({'address': originList[i]},
-                        showGeocodedAddressOnMap(false));
-                    for (var j = 0; j < results.length; j++) {
-                        geocoder.geocode({'address': destinationList[j]},
-                            showGeocodedAddressOnMap(true));
-                        outputDiv.innerHTML += originList[i] + ' to ' + destinationList[j] +
-                            ': ' + results[j].distance.text + ' in ' +
-                            results[j].duration.text + '<br>';
-                    }
-                }
+                console.log(pos);
+
+            }, function () {
+                //handleLocationError(true, infoWindow, map.getCenter());
+                console.log('error');
+            });
+        } else {
+            // Browser doesn't support Geolocation
+            //handleLocationError(false, infoWindow, map.getCenter());
+            console.log('no geolocation');
+        }
+    }
+
+    function initMap() {
+
+        console.log('int map');
+
+        getCurrentPosition();
+
+        function getCurrentPosition() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    console.log('get current pos');
+                    var pos = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    console.log(pos);
+
+
+                    // rest of map
+                    var bounds = new google.maps.LatLngBounds;
+                    var markersArray = [];
+
+                    //var origin1 = {lat: 55.93, lng: -3.118};
+                    var origin1 = pos;
+//                    var origin2 = 'Greenwich, England';
+                    var destinationA = 'Texadelphia, Great Hills, Austin, TX';
+                    //var destinationB = {lat: 50.087, lng: 14.421};
+
+                    var destinationIcon = 'https://chart.googleapis.com/chart?' +
+                        'chst=d_map_pin_letter&chld=D|FF0000|000000';
+                    var originIcon = 'https://chart.googleapis.com/chart?' +
+                        'chst=d_map_pin_letter&chld=O|FFFF00|000000';
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: 55.53, lng: 9.4},
+                        zoom: 10
+                    });
+                    var geocoder = new google.maps.Geocoder;
+
+                    var service = new google.maps.DistanceMatrixService;
+                    service.getDistanceMatrix({
+                        origins: [origin1],
+                        destinations: [destinationA],
+                        travelMode: 'DRIVING',
+                        unitSystem: google.maps.UnitSystem.IMPERIAL,
+                        avoidHighways: false,
+                        avoidTolls: false
+                    }, function (response, status) {
+                        if (status !== 'OK') {
+                            alert('Error was: ' + status);
+                        } else {
+
+                            console.log('response origin1 ' + response.originAddresses[0]);
+
+                            var originList = response.originAddresses;
+                            var destinationList = response.destinationAddresses;
+                            var outputDiv = document.getElementById('output');
+                            outputDiv.innerHTML = '';
+                            deleteMarkers(markersArray);
+
+                            var showGeocodedAddressOnMap = function (asDestination) {
+                                var icon = asDestination ? destinationIcon : originIcon;
+                                return function (results, status) {
+                                    if (status === 'OK') {
+                                        map.fitBounds(bounds.extend(results[0].geometry.location));
+                                        markersArray.push(new google.maps.Marker({
+                                            map: map,
+                                            position: results[0].geometry.location,
+                                            icon: icon
+                                        }));
+                                    } else {
+                                        alert('Geocode was not successful due to: ' + status);
+                                    }
+                                };
+                            };
+
+                            for (var i = 0; i < originList.length; i++) {
+                                var results = response.rows[i].elements;
+                                geocoder.geocode({'address': originList[i]},
+                                    showGeocodedAddressOnMap(false));
+                                for (var j = 0; j < results.length; j++) {
+                                    geocoder.geocode({'address': destinationList[j]},
+                                        showGeocodedAddressOnMap(true));
+                                    outputDiv.innerHTML += originList[i] + ' to ' + destinationList[j] +
+                                        ': ' + results[j].distance.text + ' in ' +
+                                        results[j].duration.text + '<br>';
+                                }
+                            }
+                        }
+                    });
+
+
+                }, function () {
+                    //handleLocationError(true, infoWindow, map.getCenter());
+                    console.log('error');
+                });
+            } else {
+                // Browser doesn't support Geolocation
+                //handleLocationError(false, infoWindow, map.getCenter());
+                console.log('no geolocation');
             }
-        });
+
+        }
     }
 
     function deleteMarkers(markersArray) {
