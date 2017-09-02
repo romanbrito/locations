@@ -1,3 +1,6 @@
+var EVT = new EventEmitter2(); // now can be used in multiple places,
+// doesn't need to be inside document.ready
+
 function initMap() {
     // https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
     // https://developers.google.com/maps/documentation/javascript/reference
@@ -10,6 +13,9 @@ function initMap() {
 
     // distance matrix
     var service = new google.maps.DistanceMatrixService;
+
+    EVT.emit("google-service", service);
+
     service.getDistanceMatrix({
         origins: [{lat: 30.395012, lng: -97.749017}],
         destinations: [{lat: 30.474465, lng: -97.801183}],
@@ -19,8 +25,8 @@ function initMap() {
         avoidTolls: false
     }, function (response, status) {
         if (status === 'OK') {
-            console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.text));
-            console.log('distance matrix ' + JSON.stringify(response));
+            // console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.text));
+            // console.log('distance matrix ' + JSON.stringify(response));
         } else {
             alert('Geocode was not successful due to: ' + status);
         }

@@ -1,5 +1,27 @@
 get_the_data(); // load info
 search_the_data(); // search data
+getDistance({lat: 30.395012, lng: -97.749017}, {lat: 30.474465, lng: -97.801183});
+getDistance({lat: 30.395012, lng: -97.749017}, {lat: 32.909483,lng: -96.959442});
+
+function getDistance( origin, destination) {
+EVT.on("google-service", function (service) {
+    service.getDistanceMatrix({
+        origins: [origin],
+        destinations: [destination],
+        travelMode: 'DRIVING',
+        unitSystem: google.maps.UnitSystem.IMPERIAL,
+        avoidHighways: false,
+        avoidTolls: false
+    }, function (response, status) {
+        if (status === 'OK') {
+            console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.text));
+            // console.log('distance matrix ' + JSON.stringify(response));
+        } else {
+            alert('Geocode was not successful due to: ' + status);
+        }
+    });
+})
+}
 
 function search_the_data() {
     $('#search').keyup(function () {
