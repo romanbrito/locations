@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distance Matrix service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="right-panel">
+    <div id="inputs">
+
+        <!--right of the screen-->
+        <!--locations-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="search-area" class="row">
+                        <input type="search" class="fontAwesome input-search" name="search" id="search"
+                               placeholder="Name, City, State &#xf002;"/>
+                    </div>
+                    <hr>
+                    <div class="container-fluid">
+                        <div id="update" class="search-location"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div>
+        <strong>Results</strong>
+    </div>
+    <div id="output"></div>
+</div>
+<div id="map"></div>
+
+
+
+<!--jquery cdn-->
+<script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+<script src="js/map.js"></script>
+<script src="js/searchLocation.js"></script>
+</body>
+</html>
