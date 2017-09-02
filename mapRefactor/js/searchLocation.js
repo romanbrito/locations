@@ -2,6 +2,31 @@ get_the_data(); // load info
 search_the_data(); // search data
 getDistance({lat: 30.395012, lng: -97.749017}, {lat: 30.474465, lng: -97.801183});
 getDistance({lat: 30.395012, lng: -97.749017}, {lat: 32.909483,lng: -96.959442});
+getPosition();
+
+function getPosition() {
+    // Try HTML5 geolocation.
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+            var pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            };
+
+            console.log('current position ' + JSON.stringify(pos));
+
+            return pos
+
+        }, function () {
+            //handleLocationError(true, infoWindow, map.getCenter());
+            console.log('error');
+        });
+    } else {
+        // Browser doesn't support Geolocation
+        //handleLocationError(false, infoWindow, map.getCenter());
+        console.log('no geolocation');
+    }
+}
 
 function getDistance( origin, destination) {
 EVT.on("google-service", function (service) {
