@@ -22,58 +22,18 @@ function initMap() { // outer function from jsonp
                 return current_location.coordinates;
             });
 
-            //console.log(locations_coordinates);
+            getDistance(current_position, locations_coordinates, service, function (distance) { // getDistance callback
 
-                getDistance(current_position, locations_coordinates, service, function (distance) { // getDistance callback
+                var location_distance = distance.map(function (element, index) { // merging distance with locations array
+                    data.locations[index].distance = element.distance.value;
+                    return data.locations[index];
+                }).sort(function (a, b) {  // sorting locations array
+                    return a.distance - b.distance;
+                });
 
-                    var location_distance = distance.map(function (element, index) {
-                        data.locations[index].distance = element.distance.value;
-                        return data.locations[index];
-                    }).sort(function (a, b) {
-                        return a.distance - b.distance;
-                    });
+                SearchLocation.getData(location_distance); // rendering locations
 
-                    console.log(location_distance);
-
-                    SearchLocation.getData(location_distance); // rendering locations
-
-                }); // end getDistance callback
-
-
-            // setTimeout(function () {
-            //     SearchLocation.getData(data.locations); // rendering locations
-            // },500);
-
-
-
-
-            //
-            // $.each(data.locations, function (key, val) {
-            //
-            //     getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
-            //         data.locations[key].distance = distance;
-            //         console.log(data.locations[key]);
-            //         locations_array[distance] = data.locations[key];
-            //
-            //     }); // end getDistance callback
-            //
-            //     // Once finished adding the distance to each sort array
-            //     if (key === (data.locations.length - 1)) {
-            //         // var locations_array = [] = data.locations;
-            //         // console.log(JSON.stringify(locations_array));
-            //         console.log(data.locations[0].distance);
-            //
-            //         setTimeout(function () {
-            //             console.log(locations_array);
-            //         }, 200);
-            //
-            //         //console.log(locations_array);
-            //     }
-            //
-            // }); // end each
-
-
-            //SearchLocation.getData(data.locations); // rendering locations
+            }); // end getDistance callback
 
         }); // end getPosition callback
 
@@ -81,7 +41,6 @@ function initMap() { // outer function from jsonp
     }); // end get json object
 
     // distance matrix
-
     function getDistance(origin, destination, service, cb) {
 
         service.getDistanceMatrix({
@@ -126,7 +85,7 @@ function initMap() { // outer function from jsonp
     map.fitBounds(bounds.extend({"lat": 30.474465, "lng": -97.801183}));
     map.fitBounds(bounds.extend({"lat": 33.106217, "lng": -96.824965}));
 
-} // end function init
+} // end function initMap
 
 // generate jsonp tag
 var tag = document.createElement("script");
@@ -134,6 +93,7 @@ tag.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3
 
 document.getElementsByTagName("body")[0].appendChild(tag);
 
+// this functions gets the current position
 function getPosition(cb) {
     // Try HTML5 geolocation.
     if (navigator.geolocation) {
@@ -156,26 +116,4 @@ function getPosition(cb) {
         //handleLocationError(false, infoWindow, map.getCenter());
         console.log('no geolocation');
     }
-}
-
-function sortLocations(array) {
-    // sort by distance
-    array.sort(function (a, b) {
-        return a.distance.value - b.distance.value;
-    });
-}
-
-// addPropAndSort receives data.locations, current_positio and returns an array
-function addPropAndSort(locations, current_position, service, cb) {
-    $.each(locations, function (key, val) {
-
-        getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
-            locations[key].distance = distance;
-        }); // end getDistance callback
-
-        if (key = locations.length - 1) {
-            return locations
-        }
-
-    }); // end each
 }
