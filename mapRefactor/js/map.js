@@ -2,7 +2,7 @@ function initMap() { // outer function from jsonp
 
     // https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
     // https://developers.google.com/maps/documentation/javascript/reference
-
+    var locations = [];
     var service = new google.maps.DistanceMatrixService;
 
     // getting json object to have data available
@@ -12,7 +12,7 @@ function initMap() { // outer function from jsonp
 
         getPosition(function (position) { //getPosition callback
             var current_position = position;
-            var locations = [];
+
             $.each(data.locations, function (key, val) {
 
                 getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
@@ -23,13 +23,6 @@ function initMap() { // outer function from jsonp
             }); // end each
 
             console.log(locations);
-            // sort by distance
-            locations.sort(function (a,b) {
-                return a.distance - b.distance;
-            });
-            console.log(locations);
-
-
 
         }); // end getPosition callback
 
@@ -111,4 +104,11 @@ function getPosition(cb) {
         //handleLocationError(false, infoWindow, map.getCenter());
         console.log('no geolocation');
     }
+}
+
+function sortLocations (array) {
+    // sort by distance
+    array.sort(function (a,b) {
+        return a.distance - b.distance;
+    });
 }
