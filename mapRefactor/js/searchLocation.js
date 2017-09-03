@@ -4,9 +4,9 @@ var SearchLocation = (function () {
         $('#search').keyup(function () {
             var searchField = $('#search').val();
             var myExp = new RegExp(searchField, "i");
-            $.getJSON('../json/locations.json', function (data) {
+            //$.getJSON('../json/locations.json', function (data) {
                 var output = '<ul class="searchresults">';
-                $.each(data.locations, function (key, val) {
+                $.each(locations, function (key, val) {
                     if ((val.name.search(myExp) != -1) ||
                         (val.address.search(myExp) != -1) ||
                         (val.zip.search(myExp) != -1) ||
@@ -18,15 +18,15 @@ var SearchLocation = (function () {
                 });
                 output += '</ul>';
                 $('#update').html(output);
-            }); //get JSON
+            //}); //get JSON
         });
     }
 
 
-    function get_the_data() {
-        $.getJSON('../json/locations.json', function (data) {
+    function get_the_data(locations) {
+        //$.getJSON('../json/locations.json', function (data) {
             var output = '<ul class="searchresults">';
-            $.each(data.locations, function (key, val) {
+            $.each(locations, function (key, val) {
 
                 output += get_output(val); // function
 
@@ -34,7 +34,7 @@ var SearchLocation = (function () {
             });
             output += '</ul>';
             $('#update').html(output);
-        }); // get JSON
+        //}); // get JSON
     }
 
     function get_output(val) {

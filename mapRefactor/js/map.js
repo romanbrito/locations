@@ -8,6 +8,8 @@ function initMap() { // outer function from jsonp
     // getting json object to have data available
     $.getJSON('../json/locations.json', function (data) {
 
+        SearchLocation.getData(data.locations); // rendering locations
+
         var locations = [];
 
         getPosition(function (position) { //getPosition callback
@@ -106,4 +108,11 @@ function getPosition(cb) {
         //handleLocationError(false, infoWindow, map.getCenter());
         console.log('no geolocation');
     }
+}
+
+function sortLocations (array) {
+    // sort by distance
+    array.sort(function (a,b) {
+        return a.distance - b.distance;
+    });
 }
