@@ -13,6 +13,11 @@ function initMap() { // outer function from jsonp
         getPosition(function (position) { //getPosition callback
             var current_position = position;
 
+            // var current_position = {
+            //     "lat": 35.46395,
+            //     "lng": -97.510094
+            // };
+
             var locations_coordinates = data.locations.map(function (current_location, index) {
                 return current_location.coordinates;
             });
@@ -30,12 +35,14 @@ function initMap() { // outer function from jsonp
 
                     console.log(location_distance);
 
+                    SearchLocation.getData(location_distance); // rendering locations
+
                 }); // end getDistance callback
 
 
-            setTimeout(function () {
-                SearchLocation.getData(data.locations); // rendering locations
-            },500);
+            // setTimeout(function () {
+            //     SearchLocation.getData(data.locations); // rendering locations
+            // },500);
 
 
 
