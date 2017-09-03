@@ -24,11 +24,10 @@ var SearchLocation = (function () {
 
 
     function get_the_data(locations) {
-debugger;
+
         //$.getJSON('../json/locations.json', function (data) {
             var output = '<ul class="searchresults">';
             $.each(locations, function (key, val) {
-debugger;
                 output += get_output(val); // function
             });
             output += '</ul>';
@@ -37,7 +36,6 @@ debugger;
     }
 
     function get_output(val) {
-        debugger;
         var output = '';
 
         output += '<li>';

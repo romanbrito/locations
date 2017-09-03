@@ -8,27 +8,33 @@ function initMap() { // outer function from jsonp
     // getting json object to have data available
     $.getJSON('../json/locations.json', function (data) {
 
+        console.log(data.locations);
+
         getPosition(function (position) { //getPosition callback
             var current_position = position;
 
-                        // changing each index of data.locations to distance
-
-            var locations_array = data.locations.map(function (current_location, index) {
-
-                    getDistance(current_position, current_location.coordinates, service, function (distance) { // getDistance callback
-                        current_location.distance = distance;
-                        locations_array[distance] = current_location;
-
-                    }); // end getDistance callback
-
-            }).filter(function (n) { // remove undefined
-                return n != undefined
+            var locations_coordinates = data.locations.map(function (current_location, index) {
+                return current_location.coordinates;
             });
 
-            console.log(locations_array);
+            //console.log(locations_coordinates);
+
+                getDistance(current_position, locations_coordinates, service, function (distance) { // getDistance callback
+
+                    var location_distance = distance.map(function (element, index) {
+                        data.locations[index].distance = element.distance.value;
+                        return data.locations[index];
+                    }).sort(function (a, b) {
+                        return a.distance - b.distance;
+                    });
+
+                    console.log(location_distance);
+
+                }); // end getDistance callback
+
 
             setTimeout(function () {
-                SearchLocation.getData(locations_array); // rendering locations
+                SearchLocation.getData(data.locations); // rendering locations
             },500);
 
 
@@ -70,17 +76,18 @@ function initMap() { // outer function from jsonp
     // distance matrix
 
     function getDistance(origin, destination, service, cb) {
+
         service.getDistanceMatrix({
             origins: [origin],
-            destinations: [destination],
+            destinations: destination,
             travelMode: 'DRIVING',
             unitSystem: google.maps.UnitSystem.IMPERIAL,
             avoidHighways: false,
             avoidTolls: false
         }, function (response, status) {
             if (status === 'OK') {
-                //console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.text));
-                cb(response.rows[0].elements[0].distance.value);
+                //console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.value));
+                cb(response.rows[0].elements);
                 // console.log('distance matrix ' + JSON.stringify(response));
             } else {
                 alert('Geocode was not successful due to: ' + status);
@@ -147,7 +154,7 @@ function getPosition(cb) {
 function sortLocations(array) {
     // sort by distance
     array.sort(function (a, b) {
-        return a.distance - b.distance;
+        return a.distance.value - b.distance.value;
     });
 }
 
