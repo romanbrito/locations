@@ -2,27 +2,65 @@ function initMap() { // outer function from jsonp
 
     // https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
     // https://developers.google.com/maps/documentation/javascript/reference
-    var locations = [];
+
     var service = new google.maps.DistanceMatrixService;
 
     // getting json object to have data available
     $.getJSON('../json/locations.json', function (data) {
 
-        SearchLocation.getData(data.locations); // rendering locations
-
         getPosition(function (position) { //getPosition callback
             var current_position = position;
 
-            $.each(data.locations, function (key, val) {
+                        // changing each index of data.locations to distance
 
-                getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
-                    data.locations[key].distance = distance;
-                    locations.push(val);
-                }); // end getDistance callback
+            var locations_array = data.locations.map(function (current_location, index) {
 
-            }); // end each
+                    getDistance(current_position, current_location.coordinates, service, function (distance) { // getDistance callback
+                        current_location.distance = distance;
+                        locations_array[distance] = current_location;
 
-            console.log(locations);
+                    }); // end getDistance callback
+
+            }).filter(function (n) { // remove undefined
+                return n != undefined
+            });
+
+            console.log(locations_array);
+
+            setTimeout(function () {
+                SearchLocation.getData(locations_array); // rendering locations
+            },500);
+
+
+
+
+            //
+            // $.each(data.locations, function (key, val) {
+            //
+            //     getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
+            //         data.locations[key].distance = distance;
+            //         console.log(data.locations[key]);
+            //         locations_array[distance] = data.locations[key];
+            //
+            //     }); // end getDistance callback
+            //
+            //     // Once finished adding the distance to each sort array
+            //     if (key === (data.locations.length - 1)) {
+            //         // var locations_array = [] = data.locations;
+            //         // console.log(JSON.stringify(locations_array));
+            //         console.log(data.locations[0].distance);
+            //
+            //         setTimeout(function () {
+            //             console.log(locations_array);
+            //         }, 200);
+            //
+            //         //console.log(locations_array);
+            //     }
+            //
+            // }); // end each
+
+
+            //SearchLocation.getData(data.locations); // rendering locations
 
         }); // end getPosition callback
 
@@ -106,9 +144,24 @@ function getPosition(cb) {
     }
 }
 
-function sortLocations (array) {
+function sortLocations(array) {
     // sort by distance
-    array.sort(function (a,b) {
+    array.sort(function (a, b) {
         return a.distance - b.distance;
     });
+}
+
+// addPropAndSort receives data.locations, current_positio and returns an array
+function addPropAndSort(locations, current_position, service, cb) {
+    $.each(locations, function (key, val) {
+
+        getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
+            locations[key].distance = distance;
+        }); // end getDistance callback
+
+        if (key = locations.length - 1) {
+            return locations
+        }
+
+    }); // end each
 }

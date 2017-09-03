@@ -24,13 +24,12 @@ var SearchLocation = (function () {
 
 
     function get_the_data(locations) {
+debugger;
         //$.getJSON('../json/locations.json', function (data) {
             var output = '<ul class="searchresults">';
             $.each(locations, function (key, val) {
-
+debugger;
                 output += get_output(val); // function
-
-
             });
             output += '</ul>';
             $('#update').html(output);
@@ -38,6 +37,7 @@ var SearchLocation = (function () {
     }
 
     function get_output(val) {
+        debugger;
         var output = '';
 
         output += '<li>';
@@ -53,6 +53,7 @@ var SearchLocation = (function () {
         output += '<p>' + val.hours1 + '</p>';
         output += '<p>' + val.hours2 + '</p>';
         output += '<p>' + val.hours3 + '</p>';
+        output += '<p>' + val.distance + '</p>';
         output += '</div>';
 
         output += '<div class="location-buttons col-lg-6">';
