@@ -10,11 +10,9 @@ function initMap() { // outer function from jsonp
 
         SearchLocation.getData(data.locations); // rendering locations
 
-        var locations = [];
-
         getPosition(function (position) { //getPosition callback
             var current_position = position;
-
+            var locations = [];
             $.each(data.locations, function (key, val) {
 
                 getDistance(current_position, data.locations[key].coordinates, service, function (distance) { // getDistance callback
@@ -22,13 +20,18 @@ function initMap() { // outer function from jsonp
                     locations.push(val);
                 }); // end getDistance callback
 
-            }) // end each
+            }); // end each
+
+            console.log(locations);
+            // sort by distance
+            locations.sort(function (a,b) {
+                return a.distance - b.distance;
+            });
+            console.log(locations);
+
 
 
         }); // end getPosition callback
-
-        console.log(locations);
-
 
 
     }); // end get json object
@@ -46,7 +49,7 @@ function initMap() { // outer function from jsonp
         }, function (response, status) {
             if (status === 'OK') {
                 //console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.text));
-                cb(response.rows[0].elements[0].distance.text);
+                cb(response.rows[0].elements[0].distance.value);
                 // console.log('distance matrix ' + JSON.stringify(response));
             } else {
                 alert('Geocode was not successful due to: ' + status);
@@ -108,11 +111,4 @@ function getPosition(cb) {
         //handleLocationError(false, infoWindow, map.getCenter());
         console.log('no geolocation');
     }
-}
-
-function sortLocations (array) {
-    // sort by distance
-    array.sort(function (a,b) {
-        return a.distance - b.distance;
-    });
 }
