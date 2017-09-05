@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd89915e-8237-4120-82ec-ecc378aa13f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mapRefactor/googleMapwDistance.html" afterPath="$PROJECT_DIR$/mapRefactor/googleMapwDistance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mapRefactor/js/map.js" afterPath="$PROJECT_DIR$/mapRefactor/js/map.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +23,8 @@
           <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mapRefactor/js/map.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -33,21 +34,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="searchLocation.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="searchLocation.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mapRefactor/js/searchLocation.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
+                <state relative-caret-position="136">
                   <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="googleMapwDistance.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="googleMapwDistance.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mapRefactor/googleMapwDistance.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+                <state relative-caret-position="397">
+                  <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -138,8 +139,8 @@
         <option value="$PROJECT_DIR$/svgMenuPanZoom.html" />
         <option value="$USER_HOME$/Documents/CodingFinal/uploads/locationMap.js" />
         <option value="$PROJECT_DIR$/mapRefactor/js/searchLocation.js" />
-        <option value="$PROJECT_DIR$/mapRefactor/js/map.js" />
         <option value="$PROJECT_DIR$/mapRefactor/googleMapwDistance.html" />
+        <option value="$PROJECT_DIR$/mapRefactor/js/map.js" />
       </list>
     </option>
   </component>
@@ -347,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186034000" />
+    <option name="totallyTimeSpent" value="187539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -755,9 +756,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mapRefactor/googleMapwDistance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mapRefactor/js/searchLocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="136">
           <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
           <folding />
         </state>
@@ -765,16 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapRefactor/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapRefactor/googleMapwDistance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding />
         </state>
       </provider>

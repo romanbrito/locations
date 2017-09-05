@@ -3,25 +3,27 @@ function initMap() { // outer function from jsonp
     // https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
     // https://developers.google.com/maps/documentation/javascript/reference
 
+    // load menu svg event listener
+    var $menuSVG = $("[rel*='svg-']");
+    console.log($menuSVG);
+
+    $menuSVG.on('load', function (evt) {
+        console.log('loaded');
+
+        svgPanZoom('#' + $(evt.target).attr("id"), {
+            zoomEnabled: true,
+            controlIconsEnabled: true
+        });
+
+    });
+    // end load menu svg event listener
+
     var service = new google.maps.DistanceMatrixService;
 
     // getting json object to have data available
     $.getJSON('../json/locations.json', function (data) {
 
-        // load menu svg event listener
-        var $menuSVG = $("[rel*='svg-']");
-        console.log($menuSVG);
 
-        $menuSVG.on('load', function (evt) {
-            console.log('loaded');
-
-            svgPanZoom('#' + $(evt.target).attr("id"), {
-                zoomEnabled: true,
-                controlIconsEnabled: true
-            });
-
-        });
-        // end load menu svg evetn listener
 
         getPosition(function (position) { //getPosition callback
             var current_position = position;
