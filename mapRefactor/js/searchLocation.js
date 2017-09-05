@@ -23,7 +23,7 @@ var SearchLocation = (function () {
     }
 
 
-    function get_the_data(locations) {
+    function get_the_data(locations,cb) {
 
         //$.getJSON('../json/locations.json', function (data) {
             var output = '<ul class="searchresults">';
@@ -32,6 +32,8 @@ var SearchLocation = (function () {
             });
             output += '</ul>';
             $('#update').html(output);
+
+            cb(); // callback
         //}); // get JSON
     }
 
@@ -54,10 +56,10 @@ var SearchLocation = (function () {
         output += '<p>' + val.distance + '</p>';
         output += '</div>';
 
-        output += '<div class="location-buttons col-lg-6">';
-        output += '<div class="row">';
-        output += '<a class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-        output += '<a class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+        output += '<div rel="js-content" class="location-buttons col-lg-6">';
+        output += '<div rel="js-menus" class="row">';
+        output += '<a rel="js-menu-house' + val.label + '" class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+        output += '<a rel="js-menu-cater' + val.label + '" class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
         output += '</div>';
         output += '<div class="row">';
         output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination=' + val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';

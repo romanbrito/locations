@@ -31,7 +31,24 @@ function initMap() { // outer function from jsonp
                     return a.distance - b.distance;
                 });
 
-                SearchLocation.getData(location_distance); // rendering locations
+                SearchLocation.getData(location_distance, function () {
+                    var $content = $("[rel=js-content]");
+                    var $menu = $content.children("[rel=js-menus]");
+                    $menu.on("click", "[rel*='js-menu-']", function (evt) {
+                        evt.preventDefault();
+                        evt.stopPropagation();
+                        evt.stopImmediatePropagation();
+                        // svgPanZoom('#cat-svg-LL', {
+                        //     zoomEnabled: true,
+                        //     controlIconsEnabled: true
+                        // });
+                        modalID =  $(this).attr('data-target');
+                        console.log('you clicked ' + modalID);
+                        $(modalID).modal();
+                    });
+
+                }); // rendering locations
+                SearchLocation.searchData(location_distance); // rendering location for search
 
             }); // end getDistance callback
 
