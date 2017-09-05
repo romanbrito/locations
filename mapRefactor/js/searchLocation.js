@@ -23,7 +23,7 @@ var SearchLocation = (function () {
     }
 
 
-    function get_the_data(locations,cb) {
+    function get_the_data(locations) {
 
         //$.getJSON('../json/locations.json', function (data) {
             var output = '<ul class="searchresults">';
@@ -33,7 +33,6 @@ var SearchLocation = (function () {
             output += '</ul>';
             $('#update').html(output);
 
-            cb(); // callback
         //}); // get JSON
     }
 
