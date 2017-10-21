@@ -15,21 +15,28 @@
 <body>
 <h3>My Google Maps Demo</h3>
 <div id="map"></div>
+<!--jquery cdn-->
+<script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
 <script>
+    var url = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap";
+    $.getScript(url, initMap);
+
     function initMap() {
-        var uluru = {lat: 30.395016, lng: -97.748996};
+        var uluru = {lat: 28.3852377, lng: -81.5660627};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
             center: uluru
         });
         var marker = new google.maps.Marker({
             position: uluru,
-            map: map,
+            map: map
         });
     }
 </script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap">
-</script>
+
 </body>
 </html>

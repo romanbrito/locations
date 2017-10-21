@@ -16,7 +16,7 @@
         "lat": 30.395012,
         "lng": -97.749017
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -35,7 +35,7 @@
         "lat": 30.474465,
         "lng": -97.801183
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -54,7 +54,7 @@
         "lat": 30.228924,
         "lng": -97.822714
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -73,7 +73,7 @@
         "lat": 33.106217,
         "lng": -96.824965
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -92,7 +92,7 @@
         "lat": 32.909483,
         "lng": -96.959442
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -111,7 +111,7 @@
         "lat": 32.853438,
         "lng": -96.768555
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -130,7 +130,7 @@
         "lat": 33.053774,
         "lng": -96.796717
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -168,8 +168,8 @@
         "lat": 32.732301,
         "lng": -97.108553
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_UTA-1", "House_UTA-2"],
+      "cateringMenuUrl": ["Cat_UTA-1"]
     },
     {
       "name": "OKC",
@@ -187,7 +187,7 @@
         "lat": 35.46395,
         "lng": -97.510094
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -206,7 +206,7 @@
         "lat": 27.575264,
         "lng": -99.471407
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -225,7 +225,7 @@
         "lat": 26.194533,
         "lng": -98.205324
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     },
     {
@@ -244,7 +244,7 @@
         "lat": 29.7368233,
         "lng": -95.513883
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": [],
       "cateringMenuUrl": ""
     }
   ]

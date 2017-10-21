@@ -14,6 +14,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/svg-pan-zoom.js"></script>
+    <script src="js/hammer.min.js"></script>
 </head>
 <body>
 <div id="right-panel">
@@ -43,7 +44,12 @@
 <div id="locationbox">
     <div id="locationInfo"></div>
 </div>
-
+<!--svg controls-->
+<div class="controls">
+    <button id="zoom-in">Zoom in</button>
+    <button id="zoom-out">Zoom out</button>
+    <button id="reset">Reset</button>
+</div>
 
 <!--mustache template-->
 <script id="locationtpl" type="text/template">
