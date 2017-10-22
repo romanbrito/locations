@@ -6,7 +6,9 @@ function loadMapsScript() {
         $.getJSON('locations.json', function (data) {
 
             var o = GoogleMap();
-        o.addMarkers(o.getGoogleMaps( data ).map, data);
+            o.addMarkers(o.getGoogleMaps(data).map, data);
+
+            Location.renderLocations(data.locations);
 
         });
 
@@ -18,6 +20,9 @@ function loadMapsScript() {
 }
 
 loadMapsScript();
+
+
+
 
 
 
