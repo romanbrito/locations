@@ -29,16 +29,32 @@ function loadMapsScript() {
                         return a.distance - b.distance;
                     });
 
-                    Location.renderLocations(location_distance);
+                    Location.renderLocations(location_distance, function () {
+
+                        $(".btn").click(function () {
+                            alert("hello");
+                            RunTemplate.tmplt(data);
+                        });
+
+                    });
 
                 })
             });
 
         };
 
-        Location.renderLocations(data.locations);
+        Location.renderLocations(data.locations, function () {
 
-        RunTemplate.loadTemplate(data);
+            $(".btn").click(function () {
+                alert("hello");
+                RunTemplate.tmplt(data);
+            });
+
+        });
+
+
+        //RunTemplate.tmplt(data)
+
 
     });
 
@@ -48,8 +64,6 @@ function loadMapsScript() {
 }
 
 loadMapsScript();
-
-
 
 
 

@@ -1,6 +1,6 @@
 var Location = (function ($) {
 
-    function renderLocations(locations) {
+    function renderLocations(locations,cb) {
 
         var output = '<ul class="searchresults">';
         $.each(locations, function (key, val) {
@@ -8,6 +8,8 @@ var Location = (function ($) {
         });
         output += '</ul>';
         $('#update').html(output);
+
+        cb(); //callback
     }
 
     function get_output(val) {
