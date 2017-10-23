@@ -1,30 +1,4 @@
 var Location = (function ($) {
-    /**
-     * Search script
-     */
-
-// http://maps.googleapis.com/maps/api/directions/json?origin=78572&destination=78641
-// json for distance between locations
-//     function search_the_data(locations) {
-//         $('#search').keyup(function () {
-//             var searchField = $('#search').val();
-//             var myExp = new RegExp(searchField, "i");
-//             var output = '<ul class="searchresults">';
-//             $.each(locations, function (key, val) {
-//                 if ((val.name.search(myExp) != -1) ||
-//                     (val.address.search(myExp) != -1) ||
-//                     (val.zip.search(myExp) != -1) ||
-//                     (val.state.search(myExp) != -1) ||
-//                     (val.city.search(myExp) != -1)) {
-//
-//                     output += get_output(val); // function
-//                 }
-//             });
-//             output += '</ul>';
-//             $('#update').html(output);
-//         });
-//     }
-
 
     function renderLocations(locations) {
 
@@ -52,7 +26,7 @@ var Location = (function ($) {
         output += '<p>' + val.hours1 + '</p>';
         output += '<p>' + val.hours2 + '</p>';
         output += '<p>' + val.hours3 + '</p>';
-        output += '<p>' + val.miles + '</p>';
+        (val.miles ? output += '<p>Distance: ' + val.miles + '</p>' : output += '<p>' + '</p>');
         output += '</div>';
 
         output += '<div class="location-buttons col-lg-6">';

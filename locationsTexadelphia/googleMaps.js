@@ -56,9 +56,29 @@ function GoogleMap() {
 
     }
 
+    function getDistance(origin, destination, cb) {
+        var service = new google.maps.DistanceMatrixService();
+        service.getDistanceMatrix({
+            origins: [origin],
+            destinations: destination,
+            travelMode: 'DRIVING',
+            unitSystem: google.maps.UnitSystem.IMPERIAL,
+            avoidHighways: false,
+            avoidTolls: false
+        }, function (response, status) {
+            if (status === 'OK') {
+                cb(response.rows[0].elements);
+            } else {
+                alert('Geocode was not successful due to: ' + status);
+            }
+        });
+    }
+
+
     return {
         getGoogleMaps: getGoogleMaps,
-        addMarkers: addMarkers
+        addMarkers: addMarkers,
+        getDistance: getDistance
     };
 }
 

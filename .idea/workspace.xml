@@ -2,10 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd89915e-8237-4120-82ec-ecc378aa13f3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/locationsTexadelphia/searchLocation.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/1024x768BaconCheddar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/1024x768Catering.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/1024x768Founders.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/1024x768SouthPhilly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x370BaconCheddar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x370Catering.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x370Founders.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x370SouthPhilly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x450BaconCheddar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x450Catering.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x450Founders.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/414x450SouthPhilly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/768x768BaconCheddar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/768x768Catering.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/768x768Founders.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/768x768SouthPhilly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/AppleStore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Capitol_A.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_BR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_CO.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_FR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_GH.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_LL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_LR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_MC.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_OT.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_PL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_RI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_SS.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_UTA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Catering_WE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/GooglePlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_BR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_CO.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_FR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_GH.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_LL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_LR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_MC.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_OT.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_PL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_RI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_SS.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_UTA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/House_WE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/IphoneApp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/LightWood11x17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/TexNation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/about.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/aboutBurger.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/aboutCheese.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/aboutNachos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/bar-queso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/become.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/bottomPic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/brownLayer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/brownLayer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/brownLayer8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/burger.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/capitol.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/catering.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/catering_tray.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/deli_tray.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/founder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/franchising.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/ourStory.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/queso_cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/redBar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/images/south.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_BR.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_CO.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_FR.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_GH.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_LL.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_LR.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_MC.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_OT.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_PL.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_RI.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_SS.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_UTA.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/Catering_WE.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_BR.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_CO.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_FR.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_GH.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_LL.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_LR.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_MC.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_OT.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_PL.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_RI.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_SS.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_UTA.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/pdf/House_WE.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/googleMaps.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/googleMaps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" afterPath="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,24 +119,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.48107713">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="map_markers.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/map_markers.js">
+          <file leaf-file-name="googlemaps.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googlemaps.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-68">
+                  <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="googlemaps.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googlemaps.html">
+          <file leaf-file-name="mustacheMenuScript.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -45,8 +145,8 @@
           <file leaf-file-name="googleMaps.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googleMaps.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="935">
-                  <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+                <state relative-caret-position="224">
+                  <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -55,18 +155,28 @@
           <file leaf-file-name="locationMap.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locationMap.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
+                <state relative-caret-position="2516">
                   <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="renderLocations.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="geolocation.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/geolocation.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="renderLocations.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderLocations.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+                <state relative-caret-position="578">
+                  <caret line="34" column="182" lean-forward="false" selection-start-line="34" selection-start-column="182" selection-end-line="34" selection-end-column="182" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +189,8 @@
           <file leaf-file-name="callMaps.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/locationsTexadelphia/callMaps.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+                <state relative-caret-position="476">
+                  <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -149,9 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/searchJason.html" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Ex_Files_JScript_AJAX (1).zip/Ex_Files_JScript_AJAX/Exercise Files/04-03/finished/ajax/script.js" />
-        <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/mystyle.css" />
         <option value="$PROJECT_DIR$/locations.json" />
         <option value="$PROJECT_DIR$/locationSearch.html" />
@@ -196,9 +303,12 @@
         <option value="$PROJECT_DIR$/googleMapsLocationAjax.html" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/map_markers.js" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/rendermap.js" />
-        <option value="$PROJECT_DIR$/locationsTexadelphia/googleMaps.js" />
-        <option value="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/distanceMatrix.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/geolocation.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/googleMaps.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" />
       </list>
     </option>
@@ -387,12 +497,12 @@
       <workItem from="1506619248016" duration="66000" />
       <workItem from="1506619359018" duration="657000" />
       <workItem from="1506689425644" duration="2926000" />
-      <workItem from="1508546209227" duration="20745000" />
+      <workItem from="1508546209227" duration="33711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257295000" />
+    <option name="totallyTimeSpent" value="270261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -405,7 +515,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467792" sideWeight="0.5729167" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -438,21 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getInstagram.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browserconfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apple-touch-icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -740,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locationMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clusterJSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -758,40 +845,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locations.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locationMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googleMaps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googlemaps.html">
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/geolocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderLocations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+        <state relative-caret-position="578">
+          <caret line="34" column="182" lean-forward="false" selection-start-line="34" selection-start-column="182" selection-end-line="34" selection-end-column="182" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googlemaps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsTexadelphia/callMaps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="476">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding />
         </state>
       </provider>
