@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd89915e-8237-4120-82ec-ecc378aa13f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locationsTexadelphia/renderMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" afterPath="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aboutTexadelphia/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/contactTexadelphia/contact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/contactTexadelphia/contactWforms.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsTexadelphia/moneyversed.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsTexadelphia/news.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsTexadelphia/newsDown.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsTexadelphia/newsUp.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsTexadelphia/thrillist.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/locationsInit.js" />
+      <change beforePath="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" afterPath="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
+      <change beforePath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
+      <change beforePath="$PROJECT_DIR$/locationsTexadelphia/renderMenu.js" afterPath="$PROJECT_DIR$/locationsTexadelphia/renderMenu.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,196 +28,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51164484">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="renderMenu.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderMenu.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-                  <folding>
-                    <marker date="1508799453840" expanded="true" signature="471:478" ph="×" />
-                    <marker date="1508799453840" expanded="true" signature="1227:1238" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="googleMaps.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googleMaps.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-                  <folding>
-                    <marker date="1508720054928" expanded="true" signature="21:2706" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="57:564" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="302:499" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="518:557" ph="{&quot;map&quot;: google_map...}" />
-                    <marker date="1508720054928" expanded="true" signature="601:1954" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="690:905" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="765:892" ph="{&quot;position&quot;: location.coordinates...}" />
-                    <marker date="1508720054928" expanded="true" signature="1046:1292" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="1111:1280" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="1474:1745" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="1559:1732" ph="{&quot;imagePath&quot;: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'...}" />
-                    <marker date="1508720054928" expanded="true" signature="2006:2579" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="2105:2342" ph="{&quot;destinations&quot;: destination...}" />
-                    <marker date="1508720054928" expanded="true" signature="2372:2571" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="2407:2469" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="2475:2561" ph="{...}" />
-                    <marker date="1508720054928" expanded="true" signature="2593:2703" ph="{&quot;getGoogleMaps&quot;: getGoogleMaps...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="locationMap.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locationMap.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1598">
-                  <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="32" />
-                  <folding>
-                    <marker date="1508378214158" expanded="true" signature="19:10064" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="231:4769" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="347:3484" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="590:2912" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="740:2796" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="934:1012" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="1074:1210" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="1418:1483" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="1589:2064" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="1706:1813" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="2176:2539" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="2296:2452" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="2709:2776" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="2837:2898" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="2926:3006" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="3137:3472" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="3237:3456" ph="{&quot;customEventsHandler&quot;: eventsHandler...}" />
-                    <marker date="1508378214158" expanded="true" signature="3544:4731" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="3627:3745" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="3841:3909" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="4007:4690" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="4113:4373" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="4396:4495" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="4878:5581" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="4915:5152" ph="{&quot;destinations&quot;: destination...}" />
-                    <marker date="1508378214158" expanded="true" signature="5182:5573" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="5217:5471" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="5477:5563" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="5690:6802" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="5761:6449" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="5836:6123" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="5864:5985" ph="{&quot;lat&quot;: position.coords.latitude...}" />
-                    <marker date="1508378214158" expanded="true" signature="6137:6437" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="6455:6796" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="6469:6578" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="6808:7076" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="7171:9850" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="7310:7656" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="7517:7644" ph="{&quot;position&quot;: location.coordinates...}" />
-                    <marker date="1508378214158" expanded="true" signature="7668:8204" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="8214:8301" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="8376:8538" ph="{&quot;imagePath&quot;: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'...}" />
-                    <marker date="1508378214158" expanded="true" signature="8679:8925" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="8744:8913" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="8937:9750" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="9941:9985" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="10066:10157" ph="/** detect IE ...*/" />
-                    <marker date="1508378214158" expanded="true" signature="10178:11417" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="10275:10363" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="10369:10454" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="10460:10615" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="10621:10774" ph="//..." />
-                    <marker date="1508378214158" expanded="true" signature="10830:10964" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="11029:11186" ph="{...}" />
-                    <marker date="1508378214158" expanded="true" signature="11242:11375" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mustacheMenuScript.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding>
-                    <marker date="1508791407718" expanded="true" signature="90:231" ph="{...}" />
-                    <marker date="1508791407718" expanded="true" signature="244:279" ph="{&quot;tmplt&quot;: loadTemplate...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="callMaps.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/callMaps.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="clusterJSON.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/clusterJSON.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="53" />
-                  <folding>
-                    <marker date="1504059952318" expanded="true" signature="20:2417" ph="{...}" />
-                    <marker date="1504059952318" expanded="true" signature="107:2413" ph="{...}" />
-                    <marker date="1504059952318" expanded="true" signature="233:330" ph="{&quot;lat&quot;: position.coords.latitude...}" />
-                    <marker date="1504059952318" expanded="true" signature="403:518" ph="{&quot;center&quot;: pos...}" />
-                    <marker date="1504059952318" expanded="true" signature="530:655" ph="//..." />
-                    <marker date="1504059952318" expanded="true" signature="665:925" ph="//..." />
-                    <marker date="1504059952318" expanded="true" signature="978:2404" ph="{...}" />
-                    <marker date="1504059952318" expanded="true" signature="1049:1282" ph="{...}" />
-                    <marker date="1504059952318" expanded="true" signature="1097:1266" ph="{&quot;position&quot;: location.coordinates...}" />
-                    <marker date="1504059952318" expanded="true" signature="1663:2206" ph="{...}" />
-                    <marker date="1504059952318" expanded="true" signature="1732:2191" ph="{...}" />
-                    <marker date="1504059952318" expanded="true" signature="1911:2173" ph="//..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="googlemaps.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googlemaps.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="397">
-                  <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="renderLocations.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderLocations.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="36" column="74" lean-forward="false" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="contactWforms.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactTexadelphia/contactWforms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googleMapsLocationAjax.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/googleMapsLocationAjax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newsTexadelphia/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -237,13 +95,14 @@
       <find>myCarousel</find>
       <find>svgCarousel</find>
       <find>markers</find>
-      <find>geolocation</find>
       <find>{{</find>
       <find>rel</find>
       <find>location</find>
       <find>location.label</find>
       <find>location.name</find>
+      <find>current</find>
       <find>name</find>
+      <find>geolocation</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;name&quot;</replace>
@@ -261,11 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/locations.json" />
-        <option value="$PROJECT_DIR$/locationSearch.html" />
-        <option value="$PROJECT_DIR$/clusterVar.js" />
-        <option value="$PROJECT_DIR$/clusterMapsLocation.html" />
-        <option value="$PROJECT_DIR$/modalTemplate.js" />
         <option value="$PROJECT_DIR$/search.js" />
         <option value="$PROJECT_DIR$/locationsWPdiv.html" />
         <option value="$PROJECT_DIR$/clusterMaps.html" />
@@ -308,10 +162,15 @@
         <option value="$PROJECT_DIR$/locationsTexadelphia/geolocation.js" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/googleMaps.js" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/mustacheMenuScript.js" />
-        <option value="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
-        <option value="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/callMaps.js" />
         <option value="$PROJECT_DIR$/locationsTexadelphia/renderMenu.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/googlemaps.html" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/renderLocations.js" />
+        <option value="$PROJECT_DIR$/locationsTexadelphia/locationsInit.js" />
+        <option value="$PROJECT_DIR$/contactTexadelphia/contact.html" />
+        <option value="$PROJECT_DIR$/contactTexadelphia/contactWforms.html" />
+        <option value="$PROJECT_DIR$/aboutTexadelphia/about.html" />
+        <option value="$PROJECT_DIR$/newsTexadelphia/news.html" />
       </list>
     </option>
   </component>
@@ -321,9 +180,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2206" />
+    <option name="y" value="139" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -343,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,13 +213,22 @@
             <path>
               <item name="htmlExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="htmlExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="aboutTexadelphia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlExamples" type="462c0819:PsiDirectoryNode" />
               <item name="locationsTexadelphia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="newsTexadelphia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -368,18 +237,18 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex_Files_Organizing_JavaScript/Ex_Files_Organizing_JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mongoScraper" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giga1\workspace\htmlExamples\newsTexadelphia" />
+      <recent name="C:\Users\giga1\workspace\htmlExamples\contactTexadelphia" />
       <recent name="C:\Users\giga1\workspace\htmlExamples\locationsTexadelphia" />
       <recent name="C:\Users\giga1\workspace\htmlExamples\img\svg" />
       <recent name="C:\Users\giga1\workspace\htmlExamples\mapRefactor\js" />
-      <recent name="C:\Users\giga1\workspace\htmlExamples\mapRefactor" />
-      <recent name="C:\Users\giga1\workspace\htmlExamples\mapRefactor\json" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\giga1\workspace\htmlExamples\img" />
@@ -401,14 +270,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -471,6 +332,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -499,15 +368,21 @@
       <workItem from="1506619248016" duration="66000" />
       <workItem from="1506619359018" duration="657000" />
       <workItem from="1506689425644" duration="2926000" />
-      <workItem from="1508546209227" duration="45555000" />
+      <workItem from="1508546209227" duration="51852000" />
+      <workItem from="1508938195175" duration="15000" />
+      <workItem from="1509034319426" duration="2805000" />
+      <workItem from="1509091082250" duration="1626000" />
+      <workItem from="1510082432591" duration="609000" />
+      <workItem from="1511012735909" duration="784000" />
+      <workItem from="1512949068560" duration="5310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282105000" />
+    <option name="totallyTimeSpent" value="299551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-2206" y="139" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -516,16 +391,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31467792" sideWeight="0.42708334" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467792" sideWeight="0.5729167" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.314346" sideWeight="0.5729167" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -533,9 +408,13 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -550,48 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrollfire.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texsiteMain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="294" column="30" lean-forward="true" selection-start-line="294" selection-start-column="30" selection-end-line="294" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapRefactor/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapRefactor/js/eventemitter2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapRefactor/js/map_cpy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="69" lean-forward="true" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapRefactor/json/locations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="178" column="21" lean-forward="true" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/CodingFinal/uploads/searchLocation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-538">
@@ -666,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="10" lean-forward="false" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3145">
           <caret line="185" column="22" lean-forward="false" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="43" column="6" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="43" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,10 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="113" />
-          <folding>
-            <element signature="e#170#177#1" expanded="false" />
-            <element signature="e#212#219#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="77" column="81" lean-forward="true" selection-start-line="77" selection-start-column="81" selection-end-line="77" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,31 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="34" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/googlemaps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/googleMapsLocationAjax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,20 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="53" />
-          <folding>
-            <marker date="1504059952318" expanded="true" signature="20:2417" ph="{...}" />
-            <marker date="1504059952318" expanded="true" signature="107:2413" ph="{...}" />
-            <marker date="1504059952318" expanded="true" signature="233:330" ph="{&quot;lat&quot;: position.coords.latitude...}" />
-            <marker date="1504059952318" expanded="true" signature="403:518" ph="{&quot;center&quot;: pos...}" />
-            <marker date="1504059952318" expanded="true" signature="530:655" ph="//..." />
-            <marker date="1504059952318" expanded="true" signature="665:925" ph="//..." />
-            <marker date="1504059952318" expanded="true" signature="978:2404" ph="{...}" />
-            <marker date="1504059952318" expanded="true" signature="1049:1282" ph="{...}" />
-            <marker date="1504059952318" expanded="true" signature="1097:1266" ph="{&quot;position&quot;: location.coordinates...}" />
-            <marker date="1504059952318" expanded="true" signature="1663:2206" ph="{...}" />
-            <marker date="1504059952318" expanded="true" signature="1732:2191" ph="{...}" />
-            <marker date="1504059952318" expanded="true" signature="1911:2173" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,41 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googleMaps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <marker date="1508720054928" expanded="true" signature="21:2706" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="57:564" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="302:499" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="518:557" ph="{&quot;map&quot;: google_map...}" />
-            <marker date="1508720054928" expanded="true" signature="601:1954" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="690:905" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="765:892" ph="{&quot;position&quot;: location.coordinates...}" />
-            <marker date="1508720054928" expanded="true" signature="1046:1292" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="1111:1280" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="1474:1745" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="1559:1732" ph="{&quot;imagePath&quot;: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'...}" />
-            <marker date="1508720054928" expanded="true" signature="2006:2579" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="2105:2342" ph="{&quot;destinations&quot;: destination...}" />
-            <marker date="1508720054928" expanded="true" signature="2372:2571" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="2407:2469" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="2475:2561" ph="{...}" />
-            <marker date="1508720054928" expanded="true" signature="2593:2703" ph="{&quot;getGoogleMaps&quot;: getGoogleMaps...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/geolocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,63 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="32" />
-          <folding>
-            <marker date="1508378214158" expanded="true" signature="19:10064" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="231:4769" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="347:3484" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="590:2912" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="740:2796" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="934:1012" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="1074:1210" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="1418:1483" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="1589:2064" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="1706:1813" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="2176:2539" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="2296:2452" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="2709:2776" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="2837:2898" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="2926:3006" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="3137:3472" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="3237:3456" ph="{&quot;customEventsHandler&quot;: eventsHandler...}" />
-            <marker date="1508378214158" expanded="true" signature="3544:4731" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="3627:3745" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="3841:3909" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="4007:4690" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="4113:4373" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="4396:4495" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="4878:5581" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="4915:5152" ph="{&quot;destinations&quot;: destination...}" />
-            <marker date="1508378214158" expanded="true" signature="5182:5573" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="5217:5471" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="5477:5563" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="5690:6802" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="5761:6449" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="5836:6123" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="5864:5985" ph="{&quot;lat&quot;: position.coords.latitude...}" />
-            <marker date="1508378214158" expanded="true" signature="6137:6437" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="6455:6796" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="6469:6578" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="6808:7076" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="7171:9850" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="7310:7656" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="7517:7644" ph="{&quot;position&quot;: location.coordinates...}" />
-            <marker date="1508378214158" expanded="true" signature="7668:8204" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="8214:8301" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="8376:8538" ph="{&quot;imagePath&quot;: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'...}" />
-            <marker date="1508378214158" expanded="true" signature="8679:8925" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="8744:8913" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="8937:9750" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="9941:9985" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="10066:10157" ph="/** detect IE ...*/" />
-            <marker date="1508378214158" expanded="true" signature="10178:11417" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="10275:10363" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="10369:10454" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="10460:10615" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="10621:10774" ph="//..." />
-            <marker date="1508378214158" expanded="true" signature="10830:10964" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="11029:11186" ph="{...}" />
-            <marker date="1508378214158" expanded="true" signature="11242:11375" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,44 +652,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1508791407718" expanded="true" signature="90:231" ph="{...}" />
-            <marker date="1508791407718" expanded="true" signature="244:279" ph="{&quot;tmplt&quot;: loadTemplate...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderLocations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="74" lean-forward="false" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        <state relative-caret-position="17">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locationsInit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="100" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googleMaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/locations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/webtexadelphia/Texadelphia2015/wpDatabase/wordpress_0.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusterJSONbound.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlemaps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactTexadelphia/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactTexadelphia/contactWforms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsTexadelphia/googlemaps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="565">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="42" selection-end-column="127" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/callMaps.js">
+    <entry file="file://$PROJECT_DIR$/googleMapsLocationAjax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="295">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationsTexadelphia/renderMenu.js">
+    <entry file="file://$PROJECT_DIR$/aboutTexadelphia/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        <state relative-caret-position="391">
+          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding>
-            <marker date="1508799453840" expanded="true" signature="471:478" ph="×" />
-            <marker date="1508799453840" expanded="true" signature="1227:1238" ph="..." />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsTexadelphia/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

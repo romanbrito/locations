@@ -16,7 +16,7 @@ var Menu = (function ($) {
         output += '<img src="./images/' + menu_type + '_' + label + '.jpg" alt="' + menu_type + ' menu" width="100%">';
         output += '</div>';
         output += '<div class="large-screen-locations">';
-        output += '<object rel="pdf-' + menu_type + '-' + label + '" id="' + label + '-' + menu_type + '-pdf" class="pdf-image" type="application/pdf" data="./pdf/House_' + label + '.pdf" style="width: 100%">';
+        output += '<object rel="pdf-' + menu_type + '-' + label + '" id="' + label + '-' + menu_type + '-pdf" class="pdf-image" type="application/pdf" data="./pdf/' + menu_type + '_' + label + '.pdf" style="width: 100%">';
         output += 'Your browser does not support objects';
         output += '</object>';
         output += '</div>';

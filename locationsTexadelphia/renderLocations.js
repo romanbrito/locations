@@ -1,6 +1,6 @@
 var Location = (function ($) {
 
-    function renderLocations(locations,cb) {
+    function renderLocations(locations, cb) {
 
         var output = '<ul class="searchresults">';
         $.each(locations, function (key, val) {
@@ -10,6 +10,28 @@ var Location = (function ($) {
         $('#update').html(output);
 
         cb(); //callback
+    }
+
+    function searchLocations(locations, cb) {
+        $('#search').keyup(function () {
+            var searchField = $('#search').val();
+            var myExp = new RegExp(searchField, "i");
+            var output = '<ul class="searchresults">';
+            $.each(locations, function (key, val) {
+                if ((val.name.search(myExp) != -1) ||
+                    (val.address.search(myExp) != -1) ||
+                    (val.zip.search(myExp) != -1) ||
+                    (val.state.search(myExp) != -1) ||
+                    (val.city.search(myExp) != -1)) {
+
+                    output += get_output(val); // function
+                }
+            });
+            output += '</ul>';
+            $('#update').html(output);
+
+            cb(); //callback
+        });
     }
 
     function get_output(val) {
@@ -48,7 +70,8 @@ var Location = (function ($) {
     }
 
     return {
-        renderLocations: renderLocations
+        renderLocations: renderLocations,
+        searchLocations: searchLocations
     }
 
 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+
+    <link rel='stylesheet' id='bootstrap-css'
+          href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=4.8.2' type='text/css'
+          media='all'/>
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Feedback</a></li>
+        <li><a data-toggle="tab" href="#menu1">Franchising</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div id="home" class="tab-pane fade in active">
+
+            <p>Thank you for your feedback</p>
+            <form>
+                <!--location visited-->
+                <div class="form-group">
+                    <label for="sel1">Location Visited:</label>
+                    <select class="form-control" id="sel1">
+                        <option value='1'>Choose your location</option>
+                        <option value='18'>Frisco Warren Parkway</option>
+                        <option value='19'>Las Colinas</option>
+                        <option value='20'>Old Town</option>
+                        <option value='21'>Plano</option>
+                        <option value='23'>Richardson</option>
+                        <option value='22'>UTA</option>
+                        <option value='13'>Great Hills</option>
+                        <option value='14'>Lakeline</option>
+                        <option value='15'>Moonlight Place</option>
+                        <option value='16'>Sunset Valley</option>
+                        <option value='11'>Laredo</option>
+                        <option value='10'>McAllen</option>
+                        <option value='24'>Oklahoma</option>
+                    </select>
+
+                    <div class="form-group row">
+
+                        <!--date of visit-->
+                        <div class="col-sm-6">
+                            <label for="date-visit">Date of Visit:</label>
+                            <input type="date" class="form-control" id="date-visit">
+                        </div>
+                        <!--time of visit-->
+                        <div class="col-sm-6">
+                            <label for="time-visit">Time of Visit:</label>
+                            <input type="time" class="form-control" id="time-visit">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+
+                        <!--name-->
+                        <div class="col-sm-6">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+
+                        <!--last name-->
+                        <div class="col-sm-6">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+
+                        <!--email-->
+                        <div class="col-sm-6">
+                            <label for="email">email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <!--phone number-->
+                        <div class="col-sm-6">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+
+                    </div>
+
+                    <!--Comment-->
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+            </form>
+            <button type="submit" class="btn btn-default">Submit</button>
+
+        </div>
+
+        <div id="menu1" class="tab-pane fade">
+            <h1>Franchising Contact</h1>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!--jquery cdn-->
+<script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script type='text/javascript'
+        src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?ver=20170804'></script>
+</body>
+</html>

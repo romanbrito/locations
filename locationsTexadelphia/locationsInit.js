@@ -39,10 +39,25 @@ function loadMapsScript() {
                             var label = rel_elements[2];
                             var name = rel_elements[3];
 
-                            Menu.renderMenu(menu_type,label,name);
+                            Menu.renderMenu(menu_type, label, name);
 
                         });
                     });
+
+                    Location.searchLocations(data.locations, function () {
+                        var $menu = $("[rel*='Menu-']");
+
+                        $menu.click(function (evt) {
+                            var rel_elements = $(evt.target).attr("rel").split("-");
+                            var menu_type = rel_elements[1];
+                            var label = rel_elements[2];
+                            var name = rel_elements[3];
+
+                            Menu.renderMenu(menu_type, label, name);
+
+                        });
+                    });
+
                 })
             });
         };
@@ -57,10 +72,25 @@ function loadMapsScript() {
                 var label = rel_elements[2];
                 var name = rel_elements[3];
 
-                Menu.renderMenu(menu_type,label,name);
+                Menu.renderMenu(menu_type, label, name);
 
             });
         });
+
+        Location.searchLocations(data.locations, function () {
+            var $menu = $("[rel*='Menu-']");
+
+            $menu.click(function (evt) {
+                var rel_elements = $(evt.target).attr("rel").split("-");
+                var menu_type = rel_elements[1];
+                var label = rel_elements[2];
+                var name = rel_elements[3];
+
+                Menu.renderMenu(menu_type, label, name);
+
+            });
+        });
+
     });
 
     Google_Maps_API_Script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk";
@@ -69,9 +99,3 @@ function loadMapsScript() {
 }
 
 loadMapsScript();
-
-
-
-
-
-
